@@ -1,4 +1,4 @@
-logspout:
+lamp:
   restart: always
   environment:
     ROUTE_URIS: "${route_uri}"
