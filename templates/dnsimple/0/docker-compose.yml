@@ -11,3 +11,4 @@ dnsimple:
   labels:
     io.rancher.container.create_agent: "true"
     io.rancher.container.agent.role: "external-dns"
+
