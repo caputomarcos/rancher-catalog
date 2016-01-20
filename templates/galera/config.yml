@@ -1,5 +1,5 @@
 name: Galera
 description: |
   Glider Labs Logspout with Logstash adapter
-version: 0.2.0-rancher1
+version: 10.0.22-rancher2
 category: "Database"
