@@ -2,8 +2,8 @@ mariadb-galera-server:
   image: rancher/galera:10.0.22-rancher1
   net: "container:galera"
   environment:
-    TERM: "xterm"
-    MYSQL_ROOT_PASSWORD: "password"
+    TERM: ${TERM}
+    MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
   volumes_from:
     - 'mariadb-galera-data'
   labels:
@@ -13,7 +13,7 @@ mariadb-galera-data:
   image: rancher/galera:10.0.22-rancher1
   net: none
   environment:
-    MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    MYSQL_ALLOW_EMPTY_PASSWORD: ${MYSQL_ALLOW_EMPTY_PASSWORD}
   volumes:
     - /var/lib/mysql
     - /etc/mysql/conf.d
