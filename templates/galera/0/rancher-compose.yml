@@ -17,24 +17,6 @@
       type: "string"
       required: true
       default: "password"
-    - variable: MYSQL_DATABASE
-      description: "MYSQL_DATABASE"
-      label: "MYSQL_DATABASE"
-      type: "string"
-      required: true
-      default: "database"
-    - variable: MYSQL_USER
-      description: "MYSQL_USER"
-      label: "MYSQL_USER"
-      type: "string"
-      required: true
-      default: "user"
-    - variable: MYSQL_PASSWORD
-      description: "MYSQL_PASSWORD"
-      label: "MYSQL_PASSWORD"
-      type: "string"
-      required: true
-      default: "password"
     - variable: MYSQL_ALLOW_EMPTY_PASSWORD
       description: "MYSQL_ALLOW_EMPTY_PASSWORD"
       label: "MYSQL_ALLOW_EMPTY_PASSWORD"
