@@ -1,5 +1,5 @@
-name: Galera
+name: MariaDB Galera Cluster
 description: |
-  Glider Labs Logspout with Logstash adapter
+   Run a Galera cluster on Rancher for HA MySQL.
 version: 10.0.22-rancher2
 category: "Database"
